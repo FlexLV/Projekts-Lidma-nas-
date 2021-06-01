@@ -13,7 +13,18 @@ def Covid_19():
 
 @app.route('/ParLidmasinam')
 def Par_lidmasinu():
-  return render_template("Parlidmasinu.html")
+  return render_template("ParLidmasinu.html")
 
+@app.route('/Lidojumi')
+def Lidojumi():
+  return render_template("Lidojumi.html") 
 
+@app.route('/Register')
+def Register():
+  return render_template("Register.html")
+
+  @app.route('/ForgotPass')
+  def ForgotPass():
+    return render_template("ForgotPass.html")
+  
 app.run(host='0.0.0.0', port=8080)
