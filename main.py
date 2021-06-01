@@ -23,8 +23,8 @@ def Lidojumi():
 def Register():
   return render_template("Register.html")
 
-  @app.route('/ForgotPass')
-  def ForgotPass():
-    return render_template("ForgotPass.html")
+@app.route('/ForgotPass')
+def ForgotPass():
+  return render_template("templates/ForgotPass.html")
   
 app.run(host='0.0.0.0', port=8080)
