@@ -171,10 +171,22 @@ span.psw {
   position: static;
   margin-top: 2%;
   left: -200px;
-  display: ;
+  display: fixed;
 }
 .logo {
   margin-top: -2%;
   width: 10%;
   position: absolute
+}
+.jaunumi {
+  margin-top: 60%;
+  font-style: oblique;
+  text-decoration: none;
+  color: black;
+  display: fixed;
+}
+.ad img {
+  width: 200px;
+  height: auto;
+  margin-left: 100%;
 }

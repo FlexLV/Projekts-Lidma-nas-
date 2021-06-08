@@ -25,6 +25,14 @@ def Register():
 
 @app.route('/ForgotPass')
 def ForgotPass():
-  return render_template("templates/ForgotPass.html")
+  return render_template("ForgotPass.html")
+
+@app.route('/Izlidojumi')
+def Izlidojumi():
+  return render_template("Izlidojumi.html")
+
+@app.route('/Reservation')
+def Reservation():
+  return render_template("Reservation.html")
   
 app.run(host='0.0.0.0', port=8080)

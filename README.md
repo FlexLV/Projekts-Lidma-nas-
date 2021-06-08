@@ -1,8 +1,8 @@
 # Projekts-Lidosta
-<h1>
+
 DP1-2
 Ernests Dejus
 Nauris Dombrovskis
 Rihards Klāmanis
-</h1>
+
 https://www.figma.com/file/AmZt2NzWVlOSxFNm4Crv91/Lidosta?node-id=0%3A1

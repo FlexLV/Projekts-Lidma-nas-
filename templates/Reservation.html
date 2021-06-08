@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidojuma Rezervēšana</title>
+    <link rel="stylesheet" href="static/css/Reservation.css">
+</head>
+<body>
+<form>
+    <div class="info">
+      <label for="name">Vārds Uzvārds</label>
+      <input type="text" id="name" name="visitor_name" placeholder="Vārds Uzvārds" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <hr>
+    <div class="info">
+      <label for="email">E-Pasts</label>
+      <input type="email" id="email" name="visitor_email" placeholder="E-Pasts" required>
+    </div>
+    <hr>
+    <div class="place">
+      <label for="adult">Valsts</label>
+      <input type="country" id="country" name="country" placeholder="Valsts">
+    </div>
+    <div class="place">
+      <label for="city">Pilsēta</label>
+      <input type="city" id="city" name="city" placeholder="Pilsēta">
+    </div>
+    <div class="place">
+        <label for="adress">Adrese</label>
+        <input type="text" id="adress" name="visitor_email" placeholder="Adrese" required>
+      </div>
+    <hr>
+    <div class="info">
+      <label for="phone">Telefona Numurs</label>
+      <input type="tel" id="phone" name="visitor_phone" placeholder="Telefona Numurs" >
+    </div>
+    <hr>
+    <div class="birth-date">
+        <label for="birth-date">Dzimšanas datums</label>
+        <input type="date" id="birth-date" name="checkout" required>
+      </div>
+    <hr>
+    <div class="count">
+      <label for="adult">Pieaugušie</label>
+      <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+    </div>
+    <div class="count">
+      <label for="child">Bērni</label>
+      <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+    </div>
+    <hr>
+    <div class="input">
+      <label for="flyout-date">Izlidojuma datums</label>
+      <input type="date" id="flyout-date" name="flyoutin" required>
+    </div>
+    <div class="input">
+      <label for="flyin-date">Ielidojuma datums</label>
+      <input type="date" id="flyin-date" name="flyin" required>
+    </div>
+    <hr>
+    <button type="submit">Rezervēt lidojumu</button>
+  </form>
+</body>
+<script type="text/javascript" src="static/css/Reservation.js"></script>
+</html>
